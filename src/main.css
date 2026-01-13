@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+body {
+  /* font-family: "Noto Sans Khmer", sans-serif; */
+  /* font-family: "Hanuman", serif; */
+  /* font-family: "Suwannaphum", serif; */
+  /* font-family: "Nokora", sans-serif; */
+  font-family: "Siemreap", sans-serif;
+}
+
+.font-siemreap {
+  font-family: "Siemreap", sans-serif !important;
+}
+
+.font-noto-sans-khmer {
+  font-family: "Noto Sans Khmer", sans-serif !important;
+}
+
+.font-hanuman {
+  font-family: "Hanuman", serif !important;
+}
+
+.font-suwannaphum {
+  font-family: "Suwannaphum", serif !important;
+}
+
+.font-nokora {
+  font-family: "Nokora", sans-serif !important;
+}
