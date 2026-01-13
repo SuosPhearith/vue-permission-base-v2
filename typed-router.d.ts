@@ -27,6 +27,7 @@ declare module 'vue-router/auto-routes' {
     'settings-config': RouteRecordInfo<'settings-config', '/settings/config', Record<never, never>, Record<never, never>>,
     'settings-permission': RouteRecordInfo<'settings-permission', '/settings/permission', Record<never, never>, Record<never, never>>,
     'settings-role': RouteRecordInfo<'settings-role', '/settings/role', Record<never, never>, Record<never, never>>,
+    'test': RouteRecordInfo<'test', '/test', Record<never, never>, Record<never, never>>,
     'users': RouteRecordInfo<'users', '/users', Record<never, never>, Record<never, never>>,
     'verify': RouteRecordInfo<'verify', '/verify', Record<never, never>, Record<never, never>>,
   }

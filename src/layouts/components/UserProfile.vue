@@ -10,9 +10,9 @@
   >
     <VAvatar class="cursor-pointer" color="" variant="tonal">
       <img
-        :src="`${fileUrl}${authUser.avatar}`"
+        :src="`${fileUrl}${authUser?.avatar}`"
         alt="profile"
-        v-if="authUser.avatar"
+        v-if="authUser?.avatar"
       />
       <v-icon v-else>tabler-user</v-icon>
 
@@ -32,9 +32,9 @@
                 >
                   <VAvatar color="" variant="tonal">
                     <img
-                      :src="`${fileUrl}${authUser.avatar}`"
+                      :src="`${fileUrl}${authUser?.avatar}`"
                       alt="profile"
-                      v-if="authUser.avatar"
+                      v-if="authUser?.avatar"
                     />
                     <v-icon v-else>tabler-user</v-icon>
                   </VAvatar>
@@ -43,9 +43,9 @@
             </template>
 
             <VListItemTitle class="font-weight-semibold">
-              {{ authUser.name || " " }}
+              {{ authUser?.name || " " }}
             </VListItemTitle>
-            <VListItemSubtitle>{{ authUser.email || " " }}</VListItemSubtitle>
+            <VListItemSubtitle>{{ authUser?.email || " " }}</VListItemSubtitle>
           </VListItem>
 
           <VDivider class="my-2" />
